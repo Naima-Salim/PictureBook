@@ -11,12 +11,12 @@ class Photoshop : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_photoshop)
-        btnBack3=findViewById(R.id.btnBack)
+        btnBack3=findViewById(R.id.btnBack3)
         btnBack3.setOnClickListener {
             val intent= Intent(this,Longdrive::class.java)
             startActivity(intent)
         }
-        btnNext3=findViewById(R.id.btnNext)
+        btnNext3=findViewById(R.id.btnNext3)
         btnNext3.setOnClickListener {
             val intent= Intent(this,Food::class.java)
             startActivity(intent)

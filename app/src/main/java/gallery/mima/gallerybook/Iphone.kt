@@ -7,7 +7,7 @@ import android.widget.Button
 
 class Iphone : AppCompatActivity() {
     lateinit var btnBack:Button
-    lateinit var btnNext:Button
+    lateinit var btnNext0:Button
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_iphone)
@@ -16,8 +16,8 @@ class Iphone : AppCompatActivity() {
             val intent= Intent(this,Flower::class.java)
             startActivity(intent)
         }
-        btnNext=findViewById(R.id.btnNext)
-        btnNext.setOnClickListener {
+        btnNext0=findViewById(R.id.btnNext0)
+        btnNext0.setOnClickListener {
             val intent= Intent(this,Longdrive::class.java)
             startActivity(intent)
         }

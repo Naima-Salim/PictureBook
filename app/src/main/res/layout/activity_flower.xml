@@ -11,18 +11,18 @@
         android:id="@+id/tvFlower"
         android:layout_width="363dp"
         android:layout_height="115dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="44dp"
         android:text="Flower are very beautiful and are essential in human life. Many beautiful insects are attracted to flowers especially Butterflies."
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintHorizontal_bias="0.75"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView6" />
 
     <ImageView
         android:id="@+id/imageView6"
-        android:layout_width="332dp"
-        android:layout_height="256dp"
+        android:layout_width="339dp"
+        android:layout_height="291dp"
         android:layout_marginTop="44dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.493"
@@ -37,8 +37,8 @@
         android:text="Next"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.552"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvFlower"
-        app:layout_constraintVertical_bias="0.406" />
+        app:layout_constraintVertical_bias="0.378" />
 </androidx.constraintlayout.widget.ConstraintLayout>

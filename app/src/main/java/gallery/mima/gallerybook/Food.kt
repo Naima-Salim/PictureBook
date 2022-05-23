@@ -11,12 +11,12 @@ class Food : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_food)
-        btnBack4=findViewById(R.id.btnBack)
+        btnBack4=findViewById(R.id.btnBack4)
         btnBack4.setOnClickListener {
             val intent= Intent(this,Photoshop::class.java)
             startActivity(intent)
         }
-        btnNext4=findViewById(R.id.btnNext)
+        btnNext4=findViewById(R.id.btnNext4)
         btnNext4.setOnClickListener {
             val intent= Intent(this,Flower::class.java)
             startActivity(intent)
